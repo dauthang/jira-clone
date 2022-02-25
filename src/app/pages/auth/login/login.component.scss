@@ -1,0 +1,75 @@
+section {
+  padding: 0 20px;
+  text-align: center;
+  .page-panel {
+    box-sizing: border-box;
+    border: 1px solid #c1c7d0;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 50px auto 0;
+    padding: 40px;
+    text-align: left
+  }
+  header {
+    h1 {
+      font-size: 24px;
+      line-height: 1.25;
+      letter-spacing: -.01em;
+      font-weight: 500;
+      text-transform: none;
+    }
+  }
+
+  .form-body {
+    box-sizing: border-box;
+    display: table-cell;
+    margin: 0;
+    vertical-align: top;
+    .username {
+      margin-left: 60px;
+      input {
+        max-width: 165px;
+        width: 100%;
+        transition: background-color .2s ease-in-out,border-color .2s ease-in-out;
+        border: 2px solid #dfe1e6;
+        border-radius: 3.01px;
+        box-sizing: border-box;
+        font-size: inherit;
+        margin-left: 12px;
+        vertical-align: baseline;
+      }
+    }
+    .password {
+      margin-left: 59px;
+      input {
+        margin-left: 15px;
+        max-width: 165px;
+        width: 100%;
+        transition: background-color .2s ease-in-out,border-color .2s ease-in-out;
+        border: 2px solid #dfe1e6;
+        border-radius: 3.01px;
+        box-sizing: border-box;
+        font-size: inherit;
+        vertical-align: baseline;
+      }
+    }
+    .checkbox {
+      margin-left: 135px;
+    }
+  }
+  .form-footer {
+   button {
+     margin-left: 135px;
+     width: 60px;
+     height: 35px;
+     background-color: #0065ff;
+     color: #fff;
+     border-radius: 10%;
+   }
+    a {
+      margin-left: 10px;
+      color: #0052cc
+    }
+  }
+}
+
