@@ -1,6 +1,6 @@
 <div class="main-layout">
   <header>
-    <nav class="flex flex-row p-2">
+    <nav class="flex flex-row">
       <div class="basis-3/4">
         <div class="flex flex-row">
           <a class="pr-5">
@@ -20,9 +20,17 @@
               <a href="#">Link 3</a>
             </div>
           </div>
+          <a class="button-create">
+            Create
+          </a>
         </div>
       </div>
-      <div class="basis-1/4">test</div>
+      <div class="basis-1/4 flex justify-end">
+        <app-input-search class="pr-5"></app-input-search>
+        <mat-icon class="pr-10 pt-1">campaign</mat-icon>
+        <mat-icon class="pr-10 pt-1">help</mat-icon>
+        <mat-icon class="pr-10 pt-1">circle</mat-icon>
+      </div>
     </nav>
   </header>
   <div class="inner-content">

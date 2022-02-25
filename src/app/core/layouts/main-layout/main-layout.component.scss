@@ -1,5 +1,6 @@
 nav {
   background: #0747a6;
+  padding: 3px;
   //height: 40px;
 }
 
@@ -38,8 +39,8 @@ li {
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 50px;
-  background-color: #f1f1f1;
+  top: 43px;
+  background-color: #ffffff;
   min-width: 160px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -49,8 +50,19 @@ li {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
+  border-bottom: 1px solid #dfe1e6;
   display: block;
 }
 
 .expand_more {
+}
+
+a {
+  &.button-create {
+    color: #deebff;
+    background-color: #2684ff;
+    padding: 7px 13px;
+    border-radius: 5%;
+  }
+
 }
